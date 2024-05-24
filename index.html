@@ -31,7 +31,7 @@
 			});
 
 			window.addEventListener("message", function(event) {
-				var domain = "https:\/\/app-polytrack.kodub.com";
+				var domain = "https://spike172.github.io/";
 				if(event.origin == domain) {
 					if(event.data.hasOwnProperty("replaceState")) {
 						window.history.replaceState(null, "", event.data["replaceState"]);
